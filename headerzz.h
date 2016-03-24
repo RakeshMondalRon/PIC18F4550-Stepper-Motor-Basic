@@ -1,7 +1,6 @@
 /*  ****Compiler Directives****
  ------www.rakeshmondal.info-------
 	headerzz.h
-
  * CHIP CONFIG BITS
  * This Software is free software: you free to redistribute it or
  * modify the code way you wish. This software is for educational purpose only.
