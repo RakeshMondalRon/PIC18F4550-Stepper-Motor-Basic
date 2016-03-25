@@ -1,6 +1,6 @@
 /*     ******* Stepper Motor Driver PIC18F4550 ********
              ----www.rakeshmondal.info-----
- Source Code 1
+ Source Code 1 Stepper.c
  *  Author: Rakesh Mondal
  * This Software is free software: you free to redistribute it or
  * modify the code way you wish. This software is for educational purpose only.
