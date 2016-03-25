@@ -23,7 +23,7 @@ void singlestepping (void)
     int a;
 
     PORTB = 0b00000111; __delay_ms(60);
-    PORTB = 0b00000001;
+    PORTB = 0b00000001; __delay_ms(60);
 
  for(a=0;a<10;a++)
    {
@@ -39,7 +39,7 @@ void halfstepping (void)
 {
     int b;
     PORTB = 0b00000111;  __delay_ms(60);
-    PORTB = 0b00000010;
+    PORTB = 0b00000010;  __delay_ms(60);
 
  for(b=0;b<10;b++)
    {
@@ -58,7 +58,7 @@ void fullstepping (void)
 {
     int c;
     PORTB = 0b00000111;  __delay_ms(60);
-    PORTB = 0b00000100;
+    PORTB = 0b00000100;  __delay_ms(60);
 
  for(c=0;c<10;c++)
    {
@@ -68,7 +68,6 @@ void fullstepping (void)
      PORTD = 0b10010000;  __delay_ms(60);
    }
 }
-
 
 void main (void)
 {
@@ -81,8 +80,5 @@ void main (void)
         singlestepping();
         halfstepping();
         fullstepping();
-
-
     }
 }
-
